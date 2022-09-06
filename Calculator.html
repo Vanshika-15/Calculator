@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.ab{
+			height: 600px;
+			width: 350px;
+			background-color: black;
+			margin-top: 30px;
+			position: relative;
+		}
+		.ac{
+			height: 90px;
+			width: 340px;
+			background-color: lightgrey;
+			
+			
+		}
+		.btn{
+			background-color: orange;
+			height: 70px;
+			width: 70px;
+			border-radius: 55px;
+			margin-left: 10px;
+			
+			
+		}
+	</style>
+</head>
+<body>
+	<center>
+<form class="ab" name="MyForm">
+	<input type="text" name="input" class="ac" readonly><br><br><br>
+	<input type="button" name="" value="AC" class="btn" onclick="MyForm.input.value =' '" >
+	<input type="button" name="" value="<-X" class="btn" onclick="MyForm.input.value +='' " >
+	<input type="button" name="" value="%" class="btn" onclick="MyForm.input.value +='%' ">
+	<input type="button" name="" value="/" class="btn" onclick="MyForm.input.value +='/' "><br><br>
+
+	<input type="button" name="" value="7" class="btn" onclick="MyForm.input.value +='7' ">
+	<input type="button" name="" value="8" class="btn" onclick="MyForm.input.value +='8' ">
+	<input type="button" name="" value="9" class="btn" onclick="MyForm.input.value +='9' ">
+	<input type="button" name="" value="*" class="btn" onclick="MyForm.input.value +='*' "><br><br>
+
+	<input type="button" name="" value="4" class="btn" onclick="MyForm.input.value +='4' ">
+	<input type="button" name="" value="5" class="btn" onclick="MyForm.input.value +='5' ">
+	<input type="button" name="" value="6" class="btn" onclick="MyForm.input.value +='6' ">
+	<input type="button" name="" value="-" class="btn" onclick="MyForm.input.value +='-' "><br><br>
+
+	<input type="button" name="" value="1" class="btn" onclick="MyForm.input.value +='1' ">
+	<input type="button" name="" value="2" class="btn" onclick="MyForm.input.value +='2' ">
+	<input type="button" name="" value="3" class="btn" onclick="MyForm.input.value +='3' ">
+	<input type="button" name="" value="+" class="btn" onclick="MyForm.input.value +='+' "><br><br>
+
+	<input type="button" name="" value="||" class="btn" onclick="MyForm.input.value +='||' ">
+	<input type="button" name="" value="0" class="btn" onclick="MyForm.input.value +='0' ">
+	<input type="button" name="" value="." class="btn" onclick="MyForm.input.value +='.' ">
+	<input type="button" name="" value="=" class="btn" onclick="MyForm.input.value = eval(MyForm.input.value) "><br><br>
+	
+</center>
+</form> 
+</body>
+</html>
